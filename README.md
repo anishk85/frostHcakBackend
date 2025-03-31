@@ -20,7 +20,7 @@ ResearchAI is an intelligent research assistant designed to help researchers sav
 ## 🚀 How It Works
 
 1. **User enters a query** → The system fetches around 30 relevant papers.
-2. **AI selects the best papers** → Our heuristic AI agent filters and selects the top 5 papers using vector embeddings.
+2. **AI selects the best papers** → Our heuristic AI agent filters and selects the top max papers papers using vector embeddings.
 3. **Summarization & Explanation** → A summarizing heuristic AI agent generates concise summaries for each paper.
 4. **Interactive Chat** → Users can engage in a chat-based environment to discuss the content of a selected paper.
 
