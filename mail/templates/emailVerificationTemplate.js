@@ -66,19 +66,18 @@ const otpTemplate = (otp) => {
 	
 	<body>
 		<div class="container">
-			<a href="https://CodeMind-edtech-project.vercel.app"><img class="logo"
-					src="https://res.cloudinary.com/dtfbt7vys/image/upload/v1742808078/xbcdw5iaxf5i3rtgghja.png" alt="CodeMind Logo"></a>
+			
 			<div class="message">OTP Verification Email</div>
 			<div class="body">
 				<p>Dear User,</p>
-				<p>Thank you for registering with CodeMind. To complete your registration, please use the following OTP
+				<p>Thank you for registering with ResearchAI. To complete your registration, please use the following OTP
 					(One-Time Password) to verify your account:</p>
 				<h2 class="highlight">${otp}</h2>
 				<p>This OTP is valid for 5 minutes. If you did not request this verification, please disregard this email.
 				Once your account is verified, you will have access to our platform and its features.</p>
 			</div>
 			<div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
-					href="mailto:info@CodeMind.com">info@CodeMind.com</a>. We are here to help!</div>
+					href="mailto:info@ResearchAI.com">info@ResearchAI.com</a>. We are here to help!</div>
 		</div>
 	</body>
 	

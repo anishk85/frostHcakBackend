@@ -67,8 +67,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     
     <body>
         <div class="container">
-            <a href="https://CodeMind-edtech-project.vercel.app"><img class="logo" src="https://res.cloudinary.com/dtfbt7vys/image/upload/v1742808078/xbcdw5iaxf5i3rtgghja.png"
-                    alt="CodeMind Logo"></a>
+            
             <div class="message">Course Registration Confirmation</div>
             <div class="body">
                 <p>Dear ${name},</p>
@@ -76,10 +75,10 @@ exports.courseEnrollmentEmail = (courseName, name) => {
                     are excited to have you as a participant!</p>
                 <p>Please log in to your learning dashboard to access the course materials and start your learning journey.
                 </p>
-                <a class="cta" href="https://CodeMind-edtech-project.vercel.app/dashboard">Go to Dashboard</a>
+                <a class="cta" href="https://ResearchAI-edtech-project.vercel.app/dashboard">Go to Dashboard</a>
             </div>
             <div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
-                    href="mailto:info@CodeMind.com">info@CodeMind.com</a>. We are here to help!</div>
+                    href="mailto:info@ResearchAI.com">info@ResearchAI.com</a>. We are here to help!</div>
         </div>
     </body>
     

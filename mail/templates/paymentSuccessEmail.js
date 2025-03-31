@@ -67,8 +67,7 @@ exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
       
       <body>
           <div class="container">
-              <a href="https://CodeMind-edtech-project.vercel.app"><img class="logo" src="https://res.cloudinary.com/dtfbt7vys/image/upload/v1742808078/xbcdw5iaxf5i3rtgghja.png"
-                      alt="CodeMind Logo"></a>
+              
               <div class="message">Course Payment Confirmation</div>
               <div class="body">
                   <p>Dear ${name},</p>
@@ -77,7 +76,7 @@ exports.paymentSuccessEmail = (name, amount, orderId, paymentId) => {
                   <p>Your Order ID is <b>${orderId}</b></p>
               </div>
               <div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
-                      href="mailto:info@CodeMind.com">info@CodeMind.com</a>. We are here to help!</div>
+                      href="mailto:info@ResearchAI.com">info@ResearchAI.com</a>. We are here to help!</div>
           </div>
       </body>
       
